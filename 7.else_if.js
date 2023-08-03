@@ -40,3 +40,18 @@ else {
 
 // 3
 
+var integer = 101 ;
+
+if (integer % 2 == 0){
+    var newNumber = (integer + 1);
+    console.log (newNumber);
+}
+
+else if (integer % 2 != 0){
+    var newNumber2 = (integer - 1);
+    console.log (newNumber2);
+}
+
+else{
+    console.log('No use of else in this code');
+}
