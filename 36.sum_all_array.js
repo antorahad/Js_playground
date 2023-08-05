@@ -5,7 +5,7 @@ let givenNumbers = [5, 7, 8, 10, 45, 30];
 function findOddSum (numbers){
     let sum = 0;
 
-    for(let i = 0; i < givenNumbers.length; i++){
+    for(let i = 0; i < numbers.length; i++){
         let index = i;
 
         let element = numbers[index];
