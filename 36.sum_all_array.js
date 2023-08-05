@@ -22,4 +22,30 @@ function findOddSum (numbers){
 
 let resut =  findOddSum(givenNumbers);
 
-console.log(resut);
+console.log(resut); 
+
+
+//
+let givenArray = [10, 25, 15, 40, 22, 66, 100, 301];
+
+function findEvenSum(numbers){
+    let sum = 0;
+
+    for(let i = 0; i < numbers.length; i++){
+        let arrayIndex = i;
+        
+        let arraElement = numbers[arrayIndex];
+
+        if (arraElement % 2 == 0){
+            sum = sum + arraElement;
+        }
+    }
+
+    let result = sum;
+
+    return result;
+}
+
+let evenSum = findEvenSum(givenArray);
+
+console.log(evenSum);
